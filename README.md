@@ -9,11 +9,11 @@
 - mac에서 테스트 가능
 
 ## 폴더 구조
-- src
-  - assets
-  - components
-  - containers
-  - navigation
-  - screens
-  - store
-  - utils
+- /src
+  - /assets
+  - /components
+  - /containers
+  - /navigation
+  - /screens
+  - /store
+  - /utils
