@@ -10,10 +10,10 @@
 
 ## 폴더 구조
 - src
-- - assets
-- - components
-- - containers
-- - navigation
-- - screens
-- - store
-- - utils
+  - assets
+  - components
+  - containers
+  - navigation
+  - screens
+  - store
+  - utils
