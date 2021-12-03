@@ -1,22 +1,26 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, Button} from 'react-native';
 
 const styles=StyleSheet.create({
     container:{
         flex: 1,
-        justifyContent: "flex-end",
+        justifyContent: "flex-start",
         paddingHorizontal: 30,
         paddingVertical: 100
     },
     textStyle:{
-        fontSize:30
+        fontSize:20
     }
 })
 
-export default function Loading(){
+export default function Loading({ navigation }){
     return(
-        <View style={styles.container}>
-            <Text style={styles.textStyle}>Loading Screen</Text>
+        <View>
+          <Text>Loading!</Text>
+          <Button
+            title="Go to Test"
+            onPress={() => navigation.navigate("Test")}
+          />
         </View>
     )
 }
